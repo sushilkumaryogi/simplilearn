@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Flyaway_Booking</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+    <!-- login -->
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- RegisterClient -->
+    <servlet>
+        <servlet-name>RegisterClient</servlet-name>
+        <servlet-class>RegisterClient</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterClient</servlet-name>
+        <url-pattern>/RegisterClient</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- AvailableFlights -->
+    <servlet>
+        <servlet-name>AvailableFlights</servlet-name>
+        <servlet-class>AvailableFlights</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AvailableFlights</servlet-name>
+        <url-pattern>/AvailableFlights</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- SearchFlight -->
+    <servlet>
+        <servlet-name>SearchFlight</servlet-name>
+        <servlet-class>SearchFlight</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SearchFlight</servlet-name>
+        <url-pattern>/SearchFlight</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- PaymentDetails -->
+    <servlet>
+        <servlet-name>PaymentDetails</servlet-name>
+        <servlet-class>PaymentDetails</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PaymentDetails</servlet-name>
+        <url-pattern>/PaymentDetails</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- AdminFlights -->
+    <servlet>
+        <servlet-name>AdminFlights</servlet-name>
+        <servlet-class>AdminFlights</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminFlights</servlet-name>
+        <url-pattern>/AdminFlights</url-pattern>
+    </servlet-mapping>
+
+
+  
+  
+  
+</web-app>
