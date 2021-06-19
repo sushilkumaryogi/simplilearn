@@ -1,4 +1,5 @@
-<%
+ 
+ <%
 
     session.invalidate(); //destroy session
 
