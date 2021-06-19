@@ -13,10 +13,10 @@ import java.util.List;
 @WebServlet(name = "AdminFlights")
 public class AdminFlights extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+ 
         // name             flightname
         // source           sourcee
-        // designation      designation
+         // designation      designation
         // priceperseat     priceperseat
         // datetime         date_time
         // seats            totalseats
